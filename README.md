@@ -4,6 +4,10 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) [![Python](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/) [![Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff) [![Mypy](https://img.shields.io/badge/mypy-checked-blue)](http://mypy-lang.org/) [![isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/) [![prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
+## Notice - This Repository will be ***retired*** as all of its changes are now consolidated into the defaults HACs repository which has moved to SpanPanel organization as a joint effort
+
+***To get any future updates past v1.0.4 in this repository (which is effectively the same features/fixes in SpanPanel/span v1.0.6a) use the default HACs SPAN repository by removing the custom repository and reloading the default.  While there is no urgency as this repository is stable and there are no burning fires, we apologize for any inconvienence but in the end more committers is to everyone's advantage and having two camps is not helpful.***
+
 As SPAN has not published a documented API, we cannot guarantee this integration will work for you. The integration may break as your panel is updated if SPAN changes the API in an incompatible way.
 
 The author(s) will try to keep this integration working, but cannot provide technical support for either SPAN or your homes electrical system. The software is provided as-is with no warranty or guarantee of performance or suitability to your particular setting.
