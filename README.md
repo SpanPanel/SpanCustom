@@ -4,9 +4,21 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs) [![Python](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/) [![Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff) [![Mypy](https://img.shields.io/badge/mypy-checked-blue)](http://mypy-lang.org/) [![isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/) [![prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-## Notice - This Repository will be ***retired*** as all of its changes are now consolidated into the defaults HACs repository which has moved to SpanPanel organization as a joint effort
+## Notice - This Repository will be **_retired_** as all of its changes are now consolidated into the defaults HACs repository which has moved to SpanPanel organization as a joint effort
 
-***To get any future updates past v1.0.4 in this repository (which is effectively the same features/fixes in SpanPanel/span v1.0.6a) use the default HACs SPAN repository by removing the custom repository and reloading the default.  While there is no urgency as this repository is stable and there are no burning fires, we apologize for any inconvienence but in the end more committers is to everyone's advantage and having two camps is not helpful.***
+**_To get any future updates past v1.0.4 in this repository (which is effectively the same features/fixes in SpanPanel/span v1.0.6a) use the default HACs SPAN repository by removing the custom repository and reloading the default. While there is no urgency as this repository is stable and there are no burning fires, we apologize for any inconvienence but in the end more committers is to everyone's advantage and having two camps is not helpful._**
+
+There is a workaround to keep the old entity names if you don’t want to fix them up and to get back to the default repo but again you won’t have the mass rename capability:
+
+1. Without uninstalling the custom repository or removing the SPAN config install/download the default HACs SPAN repository latest version (22 stars) which is effectively the same as 1.0.4 of the custom repo (33 stars). When you download the default you are overlaying the files over the top of the custom repo files.
+2. Reboot HA and you’ll see version 1.0.6 for the default HACs SPAN integration
+3. Remove the HACs custom repository entry only (not the SPAN integration config) using the 3 dots in the upper right of the HAC’s screen ->Custom Repository.
+
+---
+
+---
+
+---
 
 As SPAN has not published a documented API, we cannot guarantee this integration will work for you. The integration may break as your panel is updated if SPAN changes the API in an incompatible way.
 
